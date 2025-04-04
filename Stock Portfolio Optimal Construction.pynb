@@ -28,6 +28,28 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "id": "f7d9714f-7ce6-418d-9b08-b3c15b491b0a",
+   "metadata": {},
+   "source": [
+    "This project highlighted the challenges of applying Markowitz optimization to real-world data. While the code is technically sound, the results underscore the importance of:\n",
+    "\n",
+    "1. High-quality input data (volatility, uncorrelated returns).\n",
+    "\n",
+    "2. Robust statistical methods (regularization, robust estimators).\n",
+    "\n",
+    "3. Practical constraints (sector limits, transaction costs).\n",
+    "\n",
+    "The foundation is strong—with refined data and tuning, this tool can generate actionable portfolio insights.\n",
+    "\n",
+    "**Potential Impact: Once optimized, this system could be used for:**\n",
+    "\n",
+    "- Automated asset allocation.\n",
+    "- Risk-adjusted performance benchmarking.\n",
+    "- Scenario analysis (e.g., stress-testing portfolios)."
+   ]
+  },
+  {
    "cell_type": "code",
    "execution_count": 2,
    "id": "a677cde7-80e7-43df-9ffd-8c7bd74e8110",
