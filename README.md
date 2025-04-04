@@ -1,5 +1,7 @@
 # Markowitz Mean-Variance Optimization
 
+![screenshot-localhost_8888-2025 04 04-15_27_05](https://github.com/user-attachments/assets/f7120e1d-33af-47b8-ae56-0ee8740fd3d6)
+
 ### Overview
 
 This project provides a robust framework for constructing optimal investment portfolios using Modern Portfolio Theory (MPT).
@@ -32,15 +34,13 @@ Both the minimum volatility and maximum Sharpe ratio portfolios converged to nea
 - Low return dispersion in the input data (assets behaved too similarly).
 - Insufficient risk premiums (no asset offered significantly better risk-adjusted returns).
 
-### Current and Future Use
+### Next Steps:
 
-1. Current Data Works For:
-- Academic experiments with Markowitz theory.
-- Testing basic diversification effects.
+1. Test the optimizer with a more varied dataset (e.g., tech stocks + bonds + commodities).
 
-2. For Real-World Use:
-- Expand to longer timeframes and more assets.
-- Include uncorrelated asset classes (REITs, commodities).
+2. Implement shrinkage estimators to stabilize the covariance matrix.
+
+3. Compare results with heuristic methods (e.g., equal-weight, risk parity).
 
 ### Source
 
